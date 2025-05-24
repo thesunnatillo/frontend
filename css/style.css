@@ -4,6 +4,10 @@
     list-style: none;
 }
 
+body {
+    margin: 200px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -27,4 +31,22 @@
 .navbar__list_item {
     text-transform: uppercase;
     padding: 10px;
+}
+
+section {
+    margin-top: 5px;
+    border: 2px solid;
+}
+
+.date h1 {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.pray_time_block_items {
+    text-align: center;
+}
+
+.pray_time_block_item {
+    text-transform: uppercase;
 }
